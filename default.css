@@ -1,0 +1,132 @@
+/**************************/
+/* Twilight theme for Kod */
+/**************************/
+
+body {
+    font-family: "Menlo", monospace;
+    font-size: 11px;
+    background-color: rgba(20,20,20,0.94);
+    color: #f8f8f8;
+}
+
+/* caret missing. currently hardcoded, see KTextView, setInsertionPointColor */
+
+/* invisibles missing, currently not shown */
+
+/* line highlight missing, currently not possible? */
+
+/* selection missing. currently hardcoded, see KTextView, setSelectedTextAttributes */
+
+comment {
+    color: #5f5a60;
+    font-style: italic;
+}
+
+number {
+    color: #CF6A4C;
+}
+
+/* entity missing */
+
+keyword {
+    color: #F9EE98;
+}
+
+symbol { /* should be: operator */
+    color: #CDA869;
+}
+
+type { /* Originally: storage */
+    color: #F9EE98;
+}
+
+string {
+    color: #8F9D6A;
+}
+
+/* support missing */
+
+variable {
+    color: #7587A6;
+}
+
+/* invalid missing */
+
+/* embedded source missing */
+
+/* Entity inherited-class missing */
+
+/* string constant missing */
+
+regexp {
+    color: #E9C062;
+}
+
+/* regexp "special" (escape, ruby) missing */
+
+/* string variable missing */
+
+function {
+    color: #DAD085;
+}
+
+/* support.constant missing */
+
+preproc {
+    color: #8996A8;
+}
+
+preproc keyword {
+    color: #AFC4DB;
+}
+
+/* whole HTML processing, tag, inline missing (already covered?) */
+
+/* CSS here */
+
+selector {
+    color: #CDA869;
+}
+
+/* css pseudo-class, id, class missing */
+
+property {
+    color: #C5AF75;
+}
+
+value {
+    color: #F9EE98;
+}
+
+/* CSS @rules missing */
+
+/* CSS additional constants (values, colors) missing */
+
+/* CSS constructor (whatever it is) missing */
+
+/* Diff here */
+
+/* Diff header missing*/
+
+oldfile {
+    background-color: #420E09;
+    color: #F8F8F8;
+}
+
+newfile {
+    background-color: #253B22;
+    color: #F8F8F8;
+}
+
+difflines {
+    background-color: #4A410D;
+    color: #F8F8F8;
+}
+
+/* Markup here */
+
+/* markup list missing */
+
+h1,h2,h3,h4,h5,h6 {
+    color: #CF6A4C
+}
